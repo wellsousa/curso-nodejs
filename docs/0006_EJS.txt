@@ -2,4 +2,44 @@
 EJS
 
 É uma linguagem de modelagem que nos permite utilizar o javascript para 
-construir páginas HTML. É uma forma dinamica de geração de paginas HTML.
+construir páginas HTML. É uma forma dinamica de geração de paginas HTML através do javascript
+onde você tem uma sintaxe bem proxima do HTML.
+
+para instalar o EJS use o comando:
+
+npm install ejs --save
+
+ou 
+
+yarn add ejs
+
+Para que o EJS funcione corretamente você deve criar um diretório na raiz do projeto com o nome 'views'.
+O EJS procura nesse diretório as vies, ou arquivos html, para renderizar no navegador. Dentro desse diretório
+você poderá criar subdiretórios para organizar como proferir o projeto.
+
+para informar ao express que o EJS será responsavel por criar as views. Você deve 
+usar a função 'set', por exemplo, considerando uma instancia do express chamada 'app' o comando 
+ficaria dessa forma:
+
+    app.set('view engine', 'ejs');
+
+
+/*
+    EXEMPLO DE CÓDIGO
+*/
+
+const express = require('express');
+
+const app = express();
+
+app.set('view engine', 'ejs');
+
+app.get('/language/portuguese', function(req, res){
+    res.render('languages/portuguese');
+});
+
+app.listen(3000, function(req, res){
+    console.log('Application running on port 3000.');
+});
+
+

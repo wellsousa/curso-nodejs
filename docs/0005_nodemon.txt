@@ -1,6 +1,0 @@
-
-NODEMON 
-
-É um utlitário que reinicia o node.js automaticamente todas as vezes
-que alterações forem salvas. Isso elemina o trabalho de ter de parar o servidor
-e reestar manualmente toda vez que voce alterar algo e quiser visualizar.

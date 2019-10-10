@@ -1,0 +1,14 @@
+
+NODEMON 
+
+É um utlitário que reinicia o node.js automaticamente todas as vezes
+que alterações forem salvas. Isso elemina o trabalho de ter de parar o servidor
+e reestar manualmente toda vez que voce alterar algo e quiser visualizar.
+
+Para instalar o nodemon você pode usar o comando:
+
+npm install nodemon --save-dev
+
+OU 
+
+yarn add nodemon --dev

@@ -1,0 +1,12 @@
+{
+  "name": "03_setup_EJS",
+  "version": "1.0.0",
+  "description": "Criando uma setup de um servidor com express e a lib EJS ",
+  "main": "server.js",
+  "author": "wellington de sousa reis",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}

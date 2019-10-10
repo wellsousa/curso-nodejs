@@ -1,0 +1,27 @@
+
+
+- criação do diretório.
+
+- dentro do diretório:
+
+     yarn init 
+
+     OU 
+
+     npm init
+
+instalação do express:
+    
+    npm install express --save
+
+    ou 
+
+    yarn add express 
+
+instalação do EJS:
+
+    npm install ejs --save 
+
+    ou 
+
+    yarn add ejs
