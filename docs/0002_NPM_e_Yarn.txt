@@ -1,0 +1,4 @@
+
+NPM 
+
+É um gerenciador de pacotes javascript que já vem por padrão junto com o Node.js.

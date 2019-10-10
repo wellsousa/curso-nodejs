@@ -1,0 +1,15 @@
+
+O Node.js é mais que um servidor http. Pode-se dizer que ele é um servidor de aplicação que é capaz
+de executar um aplicação escrita em javscript. Nesse contexto, pode se criar tanto aplicações web
+como também aplicações desktop rodando sobre o Node.js.
+
+O Node.js possibilita a chamada de diversas requições simultaneas sem dar DeadLock.
+
+para executar um arquvio javascript pelo node você deve ir a pasta do projet 
+e executar o comando:
+
+node [nome-do-arquivo]
+
+Exemplo,
+
+node server.js

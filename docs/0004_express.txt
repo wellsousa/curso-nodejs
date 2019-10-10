@@ -1,0 +1,16 @@
+
+EXPRESS
+
+É uma biblioteca para node.js para aplicações web. Ele implementa uma api e diversos metodos
+para manipular de formas mais faceis para controle de rotas, criação do servidor, tratamento 
+das requisições, etc. Ou seja, oferece diversos recursos para agilizar o desenvolvimento.
+
+Para instalar o express você pode usar
+
+npm install express --save
+
+O comando '--save' adiciona o express como dependencia para o projeto.
+
+OU 
+
+yarn add express

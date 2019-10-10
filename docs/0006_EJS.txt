@@ -1,0 +1,5 @@
+
+EJS
+
+É uma linguagem de modelagem que nos permite utilizar o javascript para 
+construir páginas HTML. É uma forma dinamica de geração de paginas HTML.

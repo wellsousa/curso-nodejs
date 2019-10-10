@@ -1,0 +1,27 @@
+
+
+SERVIDOR HTTP
+
+A biblioteca http permite criar aplicações para receber, tratar e responder
+a requisições http feitas por um browser. Nesse contexto, pode-se utilizar 
+o Node.js para criar um servidor http, ou seja, alguem utilizando um browser 
+consegue consumir dados do servidor.
+
+CRIANDO O SERVIDOR
+
+- crie um arquivo, por exenplo, 'server.js'
+
+/*===============================================================================
+CÓDIGO
+/*================================================================================
+var http = require('http');
+
+const server = http.createServer(function(req, res){
+
+    res.end("<html><body>Servidor de Noticías</body></html>");
+});
+
+/*
+    Escuta as requisições na porta 3000
+*/
+server.listen(3000);
