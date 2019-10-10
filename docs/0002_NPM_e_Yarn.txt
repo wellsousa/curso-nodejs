@@ -2,3 +2,20 @@
 NPM 
 
 É um gerenciador de pacotes javascript que já vem por padrão junto com o Node.js.
+
+YARN
+
+Comandos básicos:
+
+yarn add nome-do-pacote,  adiciona o pacote como dependencia
+yarn add nome-do-pacote --dev, para adicionar às devDependencies
+yarn add nome-do-pacote--peer, para adicionar às peerDependencies
+yarn add nome-do-pacote --optional, para adicionar às optionalDependencies
+
+yarn upgrade nome-do-pacote, para atualizar a dependencia
+yarn upgrade nome-do-pacote@versao, para atualizar a dependencia para uma versao especifica
+    
+    EX:
+    yarn upgrade meu-pacote-um@^2.0.0
+
+yarn remove nome-do-pacote, para remover o pacote da aplicação
