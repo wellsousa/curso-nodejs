@@ -1,0 +1,57 @@
+/*
+    O QUE É MODULARIZAÇÃO
+*/
+
+
+Em javascript os modulos funcionam como classes.
+
+Dividir a aplicação em modulos permite:
+
+- A redução da complexidade do sistema como um todo facilitando o entendimento e a manutenção.
+
+- A redução de codigo ao criar modulos reutilizaveis.
+
+- Aumenta a legibilidade do código.
+
+Para incluir um modulo em um script utilizamos a função 'requre', por exemplo:
+
+const express = require('express');
+
+/*
+    CommonJS
+*/
+
+
+É uma forma de escrita que permite que um modulo seja incorporado ao ambiente do Node.js 
+e incorporado pela aplicação que está sendo desenvolvida.
+
+Existem algumas regras que devem ser respeitadas para que o modulo funcione corretamente.
+Existe uma estrutura padrão para que as finções e variaveis de um modulo possam ser acessadas
+que é mostrado a seguir:
+
+/*
+    EXEMPLO
+    NOME DO MODULO: a_string_module.js
+*/
+
+var msg = "Este modulo contém apenas uma string";
+
+
+/*
+    Para que o modulo funcione corretamente vocẽ sempre deve usar as palavras reservadas 'module.exports' e 
+    informar o que vai ser exportado podendo ser uma variavel, uma função, um objeto, etc.
+*/
+module.exports = msg;
+
+/*
+    EXEMPLO DE CHAMADA
+*/
+
+const express = requre('express');
+const msg = requre('./a_string_module');
+
+const app = express();
+
+app.listen(3000, function(req, res){
+    console.log(msg);
+});

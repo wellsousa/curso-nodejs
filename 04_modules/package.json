@@ -1,0 +1,12 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "entendeno como funciona o conceito de modularizaçao no node.js",
+  "main": "server.js",
+  "author": "wellington de sousa reis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}

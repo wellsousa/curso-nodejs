@@ -1,0 +1,41 @@
+
+
+/*
+    EXEMPLO DE UM MODULO QUE EXPORTA UMA FUNÇÃO
+    NOME DO MODULO: a_function_module.js
+*/
+
+var msg="Exportando uma função";
+
+/*
+    Um modulo pode exportar funções. Pode ser uma função com um nome explicito ou funções anonimas
+    como mostrado abaixo.
+*/
+module.exports = function(){
+    return msg;
+}
+
+
+/*
+    EXEMPLO DE CHAMADA DA FUNÇAO
+*/
+
+const express = require('express');
+/*
+    É uma boa prática de programação usar usar o ./ para indicar que o arquivo encontra-se no nivel
+    da raiz do projeto.
+*/
+const mensage = requre('./a_function_module');
+
+const app = express();
+
+/*
+    Quando voce exporta uma função ela deve ser executada com '()' para que para que possa processar
+    as tarefas que ela contem.
+*/
+const print_msg = message();
+
+app.listen(3000, function(req, res){
+    console.log(print_msg);
+});
+
