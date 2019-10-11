@@ -1,0 +1,15 @@
+{
+  "name": "portal-noticias",
+  "version": "1.0.0",
+  "description": "Esse projeto implementa um simples portal de noticias com Node.js e EJS",
+  "main": "index.js",
+  "author": "wellington de sousa reis",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}

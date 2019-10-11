@@ -1,0 +1,25 @@
+/*
+    INICIALIZAÇÃO DO PRJETO
+    INSTALAÇÃO DE DEPENDENCIAS BÁSICAS
+*/
+
+yarn init
+
+yarn add express
+
+yarn add ejs
+
+yarn add nodemon --dev
+
+Na raiz do projeto crie o arquivo index.js
+
+/*
+    PADRAO MVC
+*/
+
+na raiz do projeto crie 3 pastas:
+
+- views  - É necessário para o modulo EJS
+- models
+- controllers
+

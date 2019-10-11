@@ -5,10 +5,25 @@ NODEMON
 que alterações forem salvas. Isso elemina o trabalho de ter de parar o servidor
 e reestar manualmente toda vez que voce alterar algo e quiser visualizar.
 
+O nodemon não é um modulo do projeto. Ele é um recurso do ambiente de desenvolvimento 
+para facilitar a execução e testes da aplicação.
+
 Para instalar o nodemon você pode usar o comando:
 
 npm install nodemon --save-dev
 
+você pode instalar o nodemon globalmente também:
+
+npm install -g nodemon 
+
 OU 
 
 yarn add nodemon --dev
+
+/*
+    UTILIZANDO O NODEMON
+*/
+
+no console dentro da pasta do projeto basta digitar:
+
+nodemon nome-do-arquivo-starter
