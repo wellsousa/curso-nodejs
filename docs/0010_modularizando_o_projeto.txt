@@ -1,0 +1,4 @@
+
+Em um projeto o ideal é criar vários modulos para as diversas funcionalidades do sistema. É 
+o ideal separar, por exemplo, os códigos de configuração da aplicação, os códigos de infraestrutura(start o servidos), 
+as regras de negócio(models) e a camada onde as requisições são tratadas(controllers)

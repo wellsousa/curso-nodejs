@@ -1,0 +1,11 @@
+{
+  "name": "modular_project",
+  "version": "1.0.0",
+  "description": "this project implemns an example of project modularization with node and express",
+  "main": "index.js",
+  "author": "wellington de sousa reis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
